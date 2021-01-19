@@ -20,24 +20,28 @@
                     </tr>
                     <tr>
                         <td>Canteloupe</td>
-                        <td>400.00</td>
+                        <td>$400.00</td>
                     </tr>
                     <tr>
                         <td>Honeydew</td>
                         <td>$1,750,00.00</td>
                     </tr>
+                </table>
 
         <h2>Order Form</h2>
             <form>
-                <input type="text" name="Your name">
+                Your Name
+                <input type="text" name="name"><br>
+                Who are we sending this to?
+                <input type="text" name="recipient"><br>
 
-                <input type="text" name="Who are we sending this to?">
-
-
-                <input type="select" name="Choose a melon">
-                    <option value="watermleon"></option>
-                    <option value="canteloupe"></option>
-                    <option value="honeydew"></option>
+                Choose a melon
+                <select name="melon">
+                    <option value="watermleon">Watermelon</option>
+                    <option value="canteloupe">Canteloupe</option>
+                    <option value="honeydew">Honeydew</option>
+                </select>
+                    <br>
                     
             <h2>"When should we deliver?"</h2>
                 <input type="radio" name="time" value="am">
@@ -46,6 +50,7 @@
                 <label>Evening</label>
                 <input type="radio" name="time" value="any">
                 <label>Any time</label>
+                <br>
 
             <label>Enter your message:</label>
             <textarea name="message"></textarea>
